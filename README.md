@@ -24,4 +24,4 @@ well-specified Bayesian linear models. We introduce 5 procedures in this paper, 
 
 ### Bayesian linear model
 
-**PoPCe, PoEdCe, EPoEdCe** reaches optimal power only under well-specified Bayesian linear model. We assume ${\bf Y}={\bf X\beta_0}+{\bf \epsilon}$ where ${\bf Y},{\bf \epsilon}\in\mathbb{R}^n$
+**PoPCe, PoEdCe, EPoEdCe** reaches optimal power only under well-specified Bayesian linear model. Under Bayesian linear model, we assume ${\bf Y}={\bf X\beta_0}+{\bf \epsilon}$ where ${\bf Y},{\bf \epsilon}\in\mathbb{R}^n$, ${\bf X}\in\mathbb{R}^{n\times d}$ and ${\bf \beta_0}\in\mathbb{R}^d$ where $\epsilon_i\sim N(0,\sigma^2)$, $X_{ij}\sim N(0,1/n)$ and $\beta_{0i}\sim\Pi$ independently, with some prior $\Pi$.
