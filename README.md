@@ -32,7 +32,7 @@ For example, figure1 compares **TPoP** and **CPoP** with thresholded LASSO proce
 
 Figure 2 performs **PoPCe, PoEdCE** and **EPoEdCe** on 10 instances of generated data under Bayesian linear model, and plot there TPP and FDP against target FDR control $\alpha$. 
 
-## How to run the code
+## Generating the figures
 
 On each folder, for example for figure1, run `fig1_data.py` to generate data file `fig1data.npy` first. Then run `fig1_plot.py` to generate the plot `fig1.pdf`.
 
