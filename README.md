@@ -36,6 +36,16 @@ Figure 2 performs **PoPCe, PoEdCE** and **EPoEdCe** on 10 instances of generated
 
 On each folder, for example for figure1, run `fig1_data.py` to generate data file `fig1data.npy` first. Then run `fig1_plot.py` to generate the plot `fig1.pdf`.
 
+### Environments
+
+```
+- python==3.7.2
+ - numpy==1.16.1
+ - cvxpy==1.1.5
+ - scipy==1.2.1
+ - sklearn==0.24.1
+```
+
 ## Miscellanous
   
 More information about the procedures can be found in the original paper. 
