@@ -23,5 +23,5 @@ well-specified Bayesian linear models. We introduce 5 procedures in this paper, 
 **EPoEdCe** is a procedure mixing empricial Bayes and **PoEdCe** to suggest a procedure we can use even when prior is not given or unknown. 
 
 ### Bayesian linear model
-y]
-**PoPCe, PoEdCe, EPoEdCe** reaches optimal power only under well-specified Bayesian linear model. We assume ${\bf Y}=\beta$
+
+**PoPCe, PoEdCe, EPoEdCe** reaches optimal power only under well-specified Bayesian linear model. We assume ${\bf Y}={\bf X\beta_0}+{\bf \epsilon}$ where ${\bf Y},{\bf \epsilon}\in\R^n$
