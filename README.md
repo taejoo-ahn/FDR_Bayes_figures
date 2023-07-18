@@ -6,8 +6,8 @@ This repository provides the codes used to generate figures for the paper:
 Taejoo Ahn, Licong Lin, Song Mei.  
 Paper: https://arxiv.org/abs/2211.02778.
 
-![Figure 1](fig1.png){width=75%}
-![Figure 2](fig2.png)
+![Figure 1](fig1.png) Figure 1
+![Figure 2](fig2.png) Figure 2
 
 
 ## Testing procedures
