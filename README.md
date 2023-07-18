@@ -14,7 +14,7 @@ Paper: https://arxiv.org/abs/2211.02778.
 
 Our primary goal of the paper is to provide multiple-testing procedures that control FDR from finite samples and achieve near-optimal power under well-specified Bayesian linear models. 
 
-We introduce 2 based procedures **TPoP** and **CPoP**, which are procedures that simply truncate the local false discovery rate (local fdr). 
+We introduce 2 base procedures **TPoP** and **CPoP**, which are procedures that simply truncate the local false discovery rate (local fdr). 
 
 Based on these two procedures, we introduce **PoPCe** and **PoEdCe**. These procedures control frequentist FDR from finite samples and achieve near-optimal power under well-specified **Bayesian linear models**. They use local fdrs as base statistics, wrap them using CRT and dCRT to generate valid p-values and e-values, then apply the eBH procedure to provide finite-sample FDR control. **EPoEdCe** is an empirical Bayes variant of **PoEdCe**.  
 
