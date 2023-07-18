@@ -6,8 +6,8 @@ This repository provides the codes used to generate figures for the paper:
 Taejoo Ahn, Licong Lin, Song Mei.  
 Paper: https://arxiv.org/abs/2211.02778.
 
-![](fig1.png)
-![](fig2.png)
+![Figure 1](fig1.png)
+![Figure 2](fig2.png)
 
 
 ## Testing procedures
@@ -18,7 +18,7 @@ Based on these two procedures, we introduce **PoPCe** and **PoEdCe**. These proc
 
 ### Bayesian linear models
 
-In Bayesian linear models, we have ${\bf Y}={\bf X\beta_0}+{\bf \epsilon}$ where ${\bf Y},{\bf \epsilon}\in\mathbb{R}^n$, ${\bf X}\in\mathbb{R}^{n\times d}$ and ${\bf \beta_0}\in\mathbb{R}^d$ where $\epsilon_i\sim N(0,\sigma^2)$, $X_{ij}\sim N(0,1/n)$ and $\beta_{0i}\sim\Pi$ independently, with some prior $\Pi$.
+In Bayesian linear models, we have ${\bf Y}={\bf X \bf \beta_0}+{\bf \varepsilon}$ where ${\bf Y},{\bf \varepsilon}\in\mathbb{R}^n$, ${\bf X}\in\mathbb{R}^{n\times d}$ and ${\bf \beta_0}\in\mathbb{R}^d$. Here, $\varepsilon_i\sim N(0,\sigma^2)$, $X_{ij} \sim N(0,1/n)$ and $\beta_{0i}\sim\Pi$ independently.
 
 ## Figure 1 and Figure 2
 
